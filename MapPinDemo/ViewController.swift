@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         let annotaion = MKPointAnnotation()
         annotaion.coordinate.latitude = 25.033493
         annotaion.coordinate.longitude = 121.564101
-        annotaion.title = "Taipan 101"
+        annotaion.title = "Taipei 101"
         
         map.setRegion(MKCoordinateRegion(center: annotaion.coordinate,
                                          span: MKCoordinateSpan(latitudeDelta: 0.05,
